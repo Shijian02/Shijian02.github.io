@@ -1,0 +1,30 @@
+<p><em>A junior student from <strong><a href="http://218.75.197.123:83/">Hunan University of Technology</a></strong></em></p>
+<p>段落
+<em>斜体
+<a>超链接
+<strong>加粗
+
+
+<a href="hobbies.html">My Hobbies</a>
+超链接也可链接到另一个网页
+
+css标签都会有一些默认值，如果我们不需要这些默认值，我们需要去覆盖它.
+
+css的语法：
+    selector{property:value;}
+    selector: who?  你要为哪个标签添加样式？谁？h1? img?
+    property: what? 你要为该标签添加什么样式？什么样式？ backgoound-color? board?
+    value: how? 
+    例如 h1 {
+        color: red;
+    }
+
+    selector:
+        1. id: id必须是唯一的，不可重复。因此一个id的自定义style仅能作用于一个标签。
+        2. class: 多个标签可以对应相同的class。因此一个class的自定义style可以同时作用于多个标签。
+        <h1 id="heading">****</h1>
+        <h1 class="heading">****</h1>
+        <h2 class="heading">++++</h2>
+        同一个标签可以拥有多个class:
+            <h1 class="heading cicyle">***</h1>
+            本<h1>标签拥有heading和cicyle两个class，两个class定义的style均会作用在该标签。
